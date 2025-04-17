@@ -1,0 +1,83 @@
+.text-section h2 {
+    color: #232323;
+    font-family: "Cabinet Grotesk";
+    font-size: 9.3125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+
+.text-section p {
+    width: 34.875rem;
+    color: #000;
+    font-family: Cabin;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.text-section h3 {
+    width: 32.5625rem;
+    color: #000;
+    font-family: Cabin;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+.resume-button {
+  position: relative;
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 9999px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.resume-button .button-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #06b6d4;
+  z-index: 0;
+  transition: width 0.3s ease-out;
+}
+
+.resume-button:hover .button-bg {
+  width: 100%;
+}
+
+.resume-button .button-text {
+  position: relative;
+  z-index: 1;
+}
+
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-pic-wrapper {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 9999px;
+  border: 4px solid #06b6d4;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

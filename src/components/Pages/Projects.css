@@ -1,0 +1,28 @@
+.projects-page {
+    padding: 3rem;
+  }
+  
+  .projects-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .project-entry {
+    background-color: #f1f1f1;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .project-entry strong {
+    font-weight: 700;
+  }
+  
