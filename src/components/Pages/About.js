@@ -37,7 +37,7 @@ function About() {
           </div>
           <h3 className="about-name">Munachimso Eriobuna</h3>
           <a
-            href="./assets/MUNACHIMSO ERIOBUNA CO-OP RESUME.pdf"
+            href="/MUNACHIMSO ERIOBUNA CO-OP RESUME.pdf"
             target="_blank"
             className="resume-button"
           >
